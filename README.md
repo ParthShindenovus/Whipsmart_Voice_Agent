@@ -209,4 +209,3 @@ async def bot(runner_args: RunnerArguments):
 ```
 
 This allows your bot to provide personalized responses based on the body data and context.
-# Whipsmart_Voice_Agent
