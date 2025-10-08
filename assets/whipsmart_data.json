@@ -1,0 +1,252 @@
+{
+  "about": [
+    {
+      "title": "About WhipSmart",
+      "content": [
+        "WhipSmart has built a user-friendly platform for you to order, manage, maintain and upgrade your EV, PHEV or FCEV.",
+        "We take care of all the costs and hassle of owning an EV.  All your costs are in one simple place and are paid monthly via salary sacrifice from your pre-tax salary, saving you thousands and you’ll never have to worry about a surprise bill again.",
+        "WhipSmart specialises in the lease of EVs and PHEVs that are newer than July 2022 as those vehicles are able to be leased with no fringe benefits tax (47%) applied, which is a huge saving compared to standard novated leases."
+      ],
+      "links": null
+    },
+    {
+      "title": "What is a Novated Lease?",
+      "content": [
+        "A novated lease is an agreement between an employee,  their employer, WhipSmart and a finance company.  It involves the lease of a vehicle, with the employer  making lease payments on behalf of the employee."
+      ],
+      "links": [
+        {
+          "text": "Benefits of novated leases",
+          "url": "/contact"
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "Why choose WhipSmart?": {
+      "title": "Why choose WhipSmart?",
+      "subtitle": "Looking for a new or pre-owned electric vehicle (EV), plugin hybrid electric vehicle (PHEV), or hydrogen fuel  cell electric vehicle (FCEV)? WhipSmart are the experts.",
+      "items": []
+    },
+    "The Process of a Novated Lease": {
+      "title": "The Process of a Novated Lease",
+      "subtitle": null,
+      "items": [
+        {
+          "number": 1,
+          "title": "Vehicle Selection",
+          "description": "WhipSmart or the employee selects  a vehicle they want to lease and negotiates the purchase price with  the seller. The vehicle can be brand  new or used, and it can be any allowed  EV make or model, depending on the  employee’s preferences and budget.",
+          "icon": "https://whipsmart.au/carbon/assets/0007e8/000002/01.svg",
+          "links": null
+        },
+        {
+          "number": 2,
+          "title": "Lease Application",
+          "description": "The employee submits a novated  lease application to WhipSmart online. WhipSmart and its finance partner  will assess the application and,  once approved, will facilitate the purchase the chosen vehicle.",
+          "icon": "https://whipsmart.au/carbon/assets/0007e8/000002/02.svg",
+          "links": null
+        },
+        {
+          "number": 3,
+          "title": "Novation Agreement",
+          "description": "Novated lease agreement documents outline the responsibilities of the employee, employer, WhipSmart and its finance partner. The employer agrees to make lease payments on behalf of the employee, and the employee takes on responsibility for vehicle’s upkeep.",
+          "icon": "https://whipsmart.au/carbon/assets/0007e8/000002/03.svg",
+          "links": null
+        },
+        {
+          "number": 4,
+          "title": "Lease Payments",
+          "description": "Lease payments are deducted from  the employee’s pre-tax salary by the employer, reducing the employees taxable income. The employer then transfers the funds to WhipSmart, covering the lease payments and other associated running costs.",
+          "icon": "https://whipsmart.au/carbon/assets/0007e8/000002/04.svg",
+          "links": null
+        },
+        {
+          "number": 5,
+          "title": "Running Costs",
+          "description": "The running costs of the vehicle are  pre-paid by the employee as part of the salary sacrifice lease payments. When a cost is due, ie. scheduled service, the cost is paid by WhipSmart from the accrued payments. Your available finances are available to be viewed at any time within the user portal.",
+          "icon": "https://whipsmart.au/carbon/assets/0007e8/000002/05.svg",
+          "links": null
+        },
+        {
+          "number": 6,
+          "title": "End of Lease",
+          "description": "At the end of the lease, the options are: 1. Sell or trade the vehicle car. If your sale price (incl GST) is more than the residual price, then you can retain the difference as a tax-free windfall and enter into a new lease with a new vehicle. 2. Re-lease the car and retain your tax benefits. The residual (ex GST) becomes the new vehicle price on which the new lease payments are calculated. 3. Keep your car by paying off the residual (incl GST).",
+          "icon": "https://whipsmart.au/carbon/assets/0007e8/000002/06.svg",
+          "links": null
+        }
+      ]
+    },
+    "What are the Key Benefits of Novated Leases": {
+      "title": "What are the Key Benefits of Novated Leases",
+      "subtitle": "There are numerous benefits available to you through novated leasing. Below are the key reasons you should novated lease your next electric vehicle.",
+      "items": [
+        {
+          "number": 1,
+          "title": "Tax Savings",
+          "description": "The most significant advantage of novated leasing is the potential for tax savings. By paying lease payments with pre-tax income, employees can reduce their taxable income and therefore pay less income tax.",
+          "icon": "https://whipsmart.au/carbon/assets/0007e8/000002/02.svg",
+          "links": null
+        },
+        {
+          "number": 2,
+          "title": "Flexible Vehicle Choice",
+          "description": "Employees have the freedom to choose the vehicle they want, including the make, model, and specifications, making it a highly customisable option.",
+          "icon": "https://whipsmart.au/carbon/assets/0007e8/000002/01.svg",
+          "links": null
+        },
+        {
+          "number": 3,
+          "title": "Convenience",
+          "description": "Novated leases simplify vehicle ownership and management, with the employer handling lease payments and employees able to include running costs in the package.",
+          "icon": "https://whipsmart.au/carbon/assets/0007e8/000002/03.svg",
+          "links": null
+        },
+        {
+          "number": 4,
+          "title": "Potential Savings",
+          "description": "Group buying power and access to fleet discounts through employers can result in cost savings on the purchase price and running costs of the vehicle.",
+          "icon": "https://whipsmart.au/carbon/assets/0007e8/000002/04.svg",
+          "links": null
+        },
+        {
+          "number": 5,
+          "title": "FBT Savings",
+          "description": "The FBT Exemption for Electric Vehicles now makes novated leases considerably more financially viable. An FBT exemption is available for electric cars that are both first held and used on or after 1 July 2022. This removes one of the significant costs of a car under a novated lease - fringe benefits tax. Click here to see what cars are FBT-free.",
+          "icon": "https://whipsmart.au/carbon/assets/0007e8/000002/05.svg",
+          "links": [
+            {
+              "text": "Click here to see what cars are FBT-free.",
+              "url": "https://www.ato.gov.au/businesses-and-organisations/hiring-and-paying-your-workers/fringe-benefits-tax/types-of-fringe-benefits/fbt-on-cars-other-vehicles-parking-and-tolls/electric-cars-exemption"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "summary": {
+    "note": "NB. If the residual is paid out, GST is applied. If re-leased GST is not applied.",
+    "text": "In summary, novated leases in Australia offer an attractive way for employees to finance and manage their vehicles while enjoying tax benefits and flexibility in their choice of cars. It’s essential to consult with a qualified financial advisor or expert before entering into a novated lease agreement to understand the specific financial implications and benefits for your situation."
+  },
+  "faq": [
+    {
+      "question": "What is a novated lease?",
+      "answer": "A novated lease is a car lease arrangement that involves three parties: the employee, the employer, and the lease company. In this arrangement, an employee leases a car from the lease company, and the employer agrees to take on the employee’s lease obligations. The lease payments are then deducted from the employee’s pre-tax salary, potentially lowering their taxable income."
+    },
+    {
+      "question": "How does a novated lease work?",
+      "answer": "In a novated lease, the employee chooses the car they want to lease, and the employer makes the lease payments on behalf of the employee directly to the lease company. These payments are typically made from the employee’s pre-tax salary through salary packaging. The arrangement is documented in a novation agreement among the three parties. See our How It Works page."
+    },
+    {
+      "question": "Are novated leases and car loans the same thing?",
+      "answer": "A novated lease and a car loan serve similar purposes but operate under different financial mechanisms. When you finance a car through a loan, the payments are made with your post-tax income, meaning you cover the loan costs with money that’s already been taxed. On the other hand, a novated lease arrangement allows for the lease payments to be deducted from your pre-tax salary. This means you make these payments before any taxes are applied to your income, effectively reducing your overall taxable income. As a result, the tax savings you achieve with a novated lease generally surpass the interest costs associated with the lease, making it a financially advantageous option in the majority of scenarios."
+    },
+    {
+      "question": "What are the benefits of a novated lease?",
+      "answer": "The main benefits include potential tax savings, as lease payments are made from pre-tax salary, reducing taxable income. It also offers convenience and budgeting benefits, as it will cover not just the lease payments but often other vehicle-related expenses like electricity, maintenance, tyres and insurance, all bundled into one regular payment."
+    },
+    {
+      "question": "Can any employee in Australia take out a novated lease?",
+      "answer": "Most employees in Australia can take advantage of a novated lease if their employer offers it as part of their salary packaging options. If your employer currently doesn’t offer it, we are happy to discuss it directly with a company owner or finance manager. It is very simple to set up and easy to manage. Some employers may already have specific salary sacrificing partners."
+    },
+    {
+      "question": "What happens at the end of a novated lease?",
+      "answer": "At the end of a novated lease term, the employee typically has several options: they can return the vehicle to the lease company, extend the lease, or purchase the vehicle for the residual value agreed upon at the start of the lease. "
+    },
+    {
+      "question": "Can I choose any car with a novated lease?",
+      "answer": "Yes, you can choose a new or used car, including selecting the make and model, subject to approval by the lease company and your employer. However, some employers or lease companies may have restrictions on the type of vehicle that can be leased. However, we recommend an electric vehicle (EV), plugin hybrid electric vehicle (PHEV) or fuel cell electric vehicle (FCEV) that is newer than July 2022, as those are FBT exempt."
+    },
+    {
+      "question": "How are you different to other providers?",
+      "answer": "WhipSmart has adopted a customer-first approach, ensuring our services and solutions are tailored to meet individual needs and preferences. We prioritise your satisfaction above all, offering personalised support and guidance throughout the leasing process to ensure it aligns with your specific requirements."
+    },
+    {
+      "question": "What makes your fee structure and charges different from others?",
+      "answer": "We stand out by being completely transparent about our fees and charges. From the beginning, you’ll have a clear understanding of all costs associated with your novated lease, without any hidden fees. This transparency ensures you can make informed financial decisions without any surprises."
+    },
+    {
+      "question": "Can you tell me more about your website and profile management features?",
+      "answer": "Our state-of-the-art website includes advanced profile management tools that allow you to easily track and manage your accrued funds. It simplifies the process of claiming payments, providing a user-friendly interface for seamless management of your leasing account."
+    },
+    {
+      "question": "How do you assist customers in finding the best deal on their car?",
+      "answer": "We work closely with you to find the best deal on your car. Our team conducts comprehensive market research to ensure you get the most value for your money. We negotiate on your behalf, leveraging our industry connections and expertise to secure competitive pricing and favorable terms."
+    },
+    {
+      "question": "What steps are you taking to make buying, owning, and upgrading electric vehicles easier?",
+      "answer": "We aim to make the process of buying, owning, and upgrading your electric vehicle as easy as upgrading a mobile phone. Our services are designed to support the unique needs of electric vehicle owners, from facilitating the initial purchase to managing ongoing maintenance and preparing for future upgrades. We provide guidance on incentives, charging infrastructure, and other key aspects of electric vehicle ownership to ensure a smooth and enjoyable experience."
+    },
+    {
+      "question": "How do your services support a seamless electric vehicle ownership experience?",
+      "answer": "Our comprehensive support for electric vehicle ownership includes assistance with installation of home charging stations, advice on maximising government incentives, and tailored maintenance packages. We’re committed to helping you transition to and enjoy the benefits of electric vehicle ownership, making it a convenient and eco-friendly choice. By focusing on customer-first principles, transparency, innovative technology, and a commitment to electric vehicles, our company strives to deliver a superior novated leasing experience. We’re dedicated to making the process of leasing a vehicle as straightforward and beneficial as possible, setting us apart in the industry."
+    },
+    {
+      "question": "Are there any risks associated with novated leases?",
+      "answer": "While novated leases can offer financial benefits, there are risks to consider. These include the commitment to ongoing payments, which continue even if employment circumstances change, and potential end-of-lease costs if the car’s market value is less than the residual value or if there are excess kilometer charges and wear and tear fees."
+    },
+    {
+      "question": "How do novated leases affect tax and superannuation?",
+      "answer": "Novated lease payments made from pre-tax income can reduce an employee’s taxable income, potentially leading to tax savings. However, it’s important to note that the value of the benefit might be added back for superannuation guarantee calculations or other purposes. Consulting with a financial advisor or tax specialist is recommended to understand the specific impacts. Most importantly though, a novated lease helps you save on your income tax over the life of the lease. In addition, WhipSmart specialises in the leases of electric vehicles, which are currently exempt from Fringe Benefits Tax (FBT)."
+    },
+    {
+      "question": "Is a novated lease the right option for me?",
+      "answer": "A novated lease may be right for you if you’re looking for a cost-effective and tax-efficient way to own a car. It’s suitable for individuals who want to bundle vehicle costs into one convenient payment, potentially reduce taxable income, and enjoy the flexibility of choosing their vehicle."
+    },
+    {
+      "question": "How does my income level affect the benefits of a novated lease?",
+      "answer": "The benefits of a novated lease can vary based on your income level. Higher income earners might find greater tax benefits due to the reduction in taxable income. It’s advisable to consult with a financial advisor to understand how a novated lease could affect your specific tax situation."
+    },
+    {
+      "question": "Can I get a novated lease without an employer?",
+      "answer": "Typically, a novated lease arrangement requires an employer to agree to the salary packaging arrangement, as the lease payments are made from your pre-tax salary through your employer. If you’re self-employed or do not have an employer who offers novated leasing, you might need to explore alternative financing options."
+    },
+    {
+      "question": "What are the long-term financial implications of a novated lease?",
+      "answer": "While a novated lease can offer immediate tax benefits and convenience, it’s essential to consider the long-term implications, including the total cost of the lease with interest, the residual payment at the end, and any potential end-of-lease charges. Evaluating these factors can help determine if a novated lease is financially beneficial in the long run."
+    },
+    {
+      "question": "How does a novated lease compare to buying a car with cash or a loan?",
+      "answer": "Comparing a novated lease to buying a car with cash or a loan involves assessing upfront costs, ongoing expenses, tax implications, and ownership aspirations. A novated lease can offer tax benefits and include vehicle running costs, while buying outright or with a loan provides immediate ownership but lacks the tax advantages of leasing."
+    },
+    {
+      "question": "What happens if I leave my job during the lease term?",
+      "answer": "If you leave your job during the lease term, you typically have several options, such as transferring the lease to a new employer, continuing the lease payments yourself after-tax, or terminating the lease early, which may incur additional costs."
+    },
+    {
+      "question": "What is a residual or balloon payment in a novated lease?",
+      "answer": "A residual or balloon payment is a lump sum payment due at the end of a novated lease term. It represents the remaining value of the vehicle and must be paid to finalise the lease agreement or to take ownership of the car."
+    },
+    {
+      "question": "How is the residual value determined?",
+      "answer": "The residual value is predetermined at the beginning of the lease based on the Australian Taxation Office (ATO) guidelines, which specify minimum residual values as a percentage of the vehicle’s initial value, depending on the lease term."
+    },
+    {
+      "question": "Why do novated leases have residual payments?",
+      "answer": "Residual payments are used to lower the monthly lease payments throughout the term of the lease, making the vehicle more affordable on a month-to-month basis. It reflects the estimated market value of the vehicle at the end of the lease."
+    },
+    {
+      "question": "Can I finance the residual payment at the end of the lease?",
+      "answer": "Yes, in many cases, you can either refinance the residual amount into a new lease or take out a loan to pay off the balloon payment, allowing you to keep the car."
+    },
+    {
+      "question": "What happens if I can't afford the residual payment?",
+      "answer": "If you’re unable to afford the residual payment at the end of your lease, options may include refinancing the residual amount, trading in the vehicle, or discussing other arrangements with your lease provider."
+    },
+    {
+      "question": "Is it possible to reduce the residual payment?",
+      "answer": "The residual value is set according to ATO guidelines and agreed upon at the start of the lease, making it difficult to reduce after the lease has commenced. However, choosing a shorter lease term can lead to a higher residual percentage, potentially affecting overall costs."
+    },
+    {
+      "question": "How does the residual payment affect my tax benefits?",
+      "answer": "While the monthly lease payments can reduce your taxable income, the residual payment itself does not directly affect tax benefits. It’s a payment for the vehicle’s value at lease end and doesn’t influence the tax advantages gained during the lease term."
+    },
+    {
+      "question": "What are the risks associated with residual payments?",
+      "answer": "The main risk is the vehicle’s market value being lower than the residual value at the end of the lease. If you choose to sell the car rather than pay the residual, you might end up covering the difference out of pocket."
+    },
+    {
+      "question": "Can I negotiate the residual value?",
+      "answer": "Generally, the residual value is based on ATO guidelines and not subject to negotiation. However, you can choose a lease term that aligns with your financial goals and the expected depreciation of the vehicle."
+    }
+  ]
+}
