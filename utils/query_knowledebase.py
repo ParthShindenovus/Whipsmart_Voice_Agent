@@ -10,8 +10,12 @@ client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
 
 def get_rag_content():
     """Get the RAG content from the file."""
+    # 1. Get the directory of this script
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    rag_content_path = os.path.join(script_dir, "assets", "knowledgebase_formatted.txt")
+
+    # 2. Go up one level to repo root
+    repo_root = os.path.abspath(os.path.join(script_dir, ".."))
+    rag_content_path = os.path.join(repo_root, "assets", "knowledgebase_formatted.txt")
     with open(rag_content_path, "r") as f:
         return f.read()
 

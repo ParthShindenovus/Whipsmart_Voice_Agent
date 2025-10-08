@@ -107,8 +107,12 @@ def main():
     data = scrape_about_page(ABOUT_URL)
     data.update(scrape_faq_page(FAQ_URL))
     
+    # 1. Get the directory of this script
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(script_dir, "assets", "whipsmart_data.json")
+
+    # 2. Go up one level to repo root
+    repo_root = os.path.abspath(os.path.join(script_dir, ".."))
+    json_path = os.path.join(repo_root, "assets", "whipsmart_data.json")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     

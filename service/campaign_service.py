@@ -1,6 +1,6 @@
 import requests
-from hubspot_api import fetch_contacts_by_lead_status
-from  twilio_manager import batch_outbound_call
+from service.hubspot_service import fetch_contacts_by_lead_status
+from  service.twilio_service import batch_outbound_call
 
 API_BASE_URL = "https://zvjk3c9x-7860.inc1.devtunnels.ms"  # Change to your server address if needed
 

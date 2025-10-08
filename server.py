@@ -7,8 +7,8 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from typing import List, Optional
 from pydantic import BaseModel
 
-from twilio_manager import batch_outbound_call, generate_twiml
-from hubspot_api import (
+from service.twilio_service import batch_outbound_call, generate_twiml
+from service.hubspot_service import (
     fetch_contacts_by_lead_status,
     update_contact_lead_status,
     add_call_notes,

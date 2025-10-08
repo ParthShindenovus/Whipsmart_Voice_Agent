@@ -36,13 +36,13 @@ from pipecat.transports.websocket.fastapi import (
     FastAPIWebsocketTransport,
 )
 
-from funtions import query_knowledge_base, end_conversation
-from function_schema import query_knowledge_base_schema, end_conversation_schema
-from prompt import SYSTEM_PROMPT
-from transcript_processor import TranscriptHandler
-from user_idle_handler import handle_user_idle  
+from utils.funtions import query_knowledge_base, end_conversation
+from utils.function_schema import query_knowledge_base_schema, end_conversation_schema
+from utils.prompt import SYSTEM_PROMPT
+from processor.transcript_processor import TranscriptHandler
+from processor.user_idle_handler import handle_user_idle  
 from agent_flow import initialize_whipsmart_flow, create_initial_greeting_node
-from hubspot_api import update_contact_lead_status, add_call_notes, create_deal_for_contact, HUBSPOT_LEAD_STATUS
+from service.hubspot_service import update_contact_lead_status, add_call_notes, create_deal_for_contact, HUBSPOT_LEAD_STATUS
 load_dotenv(override=True)
 
 logger.remove(0)
@@ -196,13 +196,11 @@ async def run_bot(transport: BaseTransport, handle_sigint: bool, contactId: str)
     async def on_function_calls_started(service, function_calls):
         ACKNOWLEDGEMENTS_CONTEXTUAL = [
             "Thank you for your question. I’ll check the details and provide you with the most accurate information.",
-            "I appreciate your query. Let me review the information and get back to you shortly.",
             "That’s a great question. I’ll look into the knowledgebase and provide a detailed answer.",
             "Thanks for asking. I’m retrieving the relevant information for you now.",
             "I’ll check the knowledgebase and ensure you get the most accurate response.",
             "Thank you — I’ll take a moment to gather the correct details for you.",
             "I appreciate you asking that. Let me confirm the information before answering.",
-            "Good question. I’ll review the relevant information and get back to you promptly.",
             "I’ll check the knowledgebase now to provide a precise and helpful answer.",
             "Thanks for your query. I’m retrieving the details to answer accurately."
         ]

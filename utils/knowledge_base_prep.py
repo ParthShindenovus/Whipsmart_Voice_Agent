@@ -67,13 +67,17 @@ def knowledgebase_to_rag_text(knowledge_json: str) -> str:
     return "\n".join(output).replace("\n\n\n", "\n\n")
 
 if __name__ == "__main__":
+    # 1. Get the directory of this script
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(script_dir, "assets", "whipsmart_data.json")
+
+    # 2. Go up one level to repo root
+    repo_root = os.path.abspath(os.path.join(script_dir, ".."))    
+    json_path = os.path.join(repo_root, "assets", "whipsmart_data.json")
     with open(json_path, "r", encoding="utf-8") as f:
         kb_json = f.read()
 
     formatted_text = knowledgebase_to_rag_text(kb_json)
-    formatted_text_path = os.path.join(script_dir, "assets", "knowledgebase_formatted.txt")
+    formatted_text_path = os.path.join(repo_root, "assets", "knowledgebase_formatted.txt")
     with open(formatted_text_path, "w", encoding="utf-8") as f:
         f.write(formatted_text)
     print("✅ Knowledgebase has been converted for RAG style and saved to knowledgebase_formatted.txt")

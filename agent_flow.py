@@ -8,7 +8,7 @@ from typing import Tuple
 from loguru import logger
 import json
 import time
-from funtions import client, RAG_MODEL, RAG_PROMPT 
+from utils.funtions import client, RAG_MODEL, RAG_PROMPT 
 
 
 # ============================================================================
@@ -242,7 +242,7 @@ async def finalize_and_update_crm(
     
     if contact_id:
         try:
-            from hubspot_api import update_contact_lead_status, add_call_notes, create_deal_for_contact, HUBSPOT_LEAD_STATUS
+            from service.hubspot_service import update_contact_lead_status, add_call_notes, create_deal_for_contact, HUBSPOT_LEAD_STATUS
             
             # Add call notes with date and time
             add_call_notes(contact_id, {

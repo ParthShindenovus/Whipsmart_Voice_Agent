@@ -4,7 +4,7 @@ import time
 from pipecat.services.llm_service import FunctionCallParams
 from pipecat.frames.frames import EndTaskFrame, TTSSpeakFrame
 from pipecat.processors.frame_processor import FrameDirection
-from query_knowledebase import RAG_PROMPT, RAG_MODEL, client
+from utils.query_knowledebase import RAG_PROMPT, RAG_MODEL, client
 
 async def end_conversation(params: FunctionCallParams):
     await params.llm.push_frame(TTSSpeakFrame("Have a nice day!"))
