@@ -654,14 +654,6 @@ def create_end_call_node() -> NodeConfig:
     """
     Gracefully end the conversation in Australian professional style.
     """
-    finalize_crm_func = FlowsFunctionSchema(
-        name="finalize_and_update_crm",
-        description="Internal function to finalize call and update CRM",
-        required=[],
-        handler=finalize_and_update_crm,
-        properties={}
-    )
-    
     return {
         "name": "end_call",
         "task_messages": [
@@ -670,12 +662,15 @@ def create_end_call_node() -> NodeConfig:
                 "content": """Thank them professionally in Australian style.
 If they accepted a meeting or email: Let them know you'll follow up soon. Say something like: 'I'll get that sorted for you straightaway.'
 If they declined: Thank them anyway and wish them well. Say something like: 'Thanks so much for your time today. Have a ripper day!'
-Keep it brief and friendly.
-After thanking them, use the finalize_and_update_crm function to complete the call."""
+Keep it brief and friendly."""
             }
         ],
-        "functions": [finalize_crm_func],
+        "functions": [],
         "post_actions": [
+            {
+                "type": "function",
+                "handler":finalize_and_update_crm
+            },
             {
                 "type": "end_conversation"
             }
